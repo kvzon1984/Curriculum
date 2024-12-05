@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pt-8">
     <Curriculum class="max-w-6xl mx-auto"/>
   </div>
 </template>

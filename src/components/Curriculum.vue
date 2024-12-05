@@ -3,7 +3,7 @@
     <HeaderComponent :header="header" />
     <ExperienceComponent :experiences="experiences" />
     <EducationComponent :educations="educations" />
-    <div class="grid grid-cols-3 gap-8 mt-8 ">
+    <div class="grid grid-cols-3 gap-8 mt-8">
       <SkillsComponent class="border-r-2 border-indigo-300 pr-3" :skills="skills"/>
       <AptitudeComponent class="border-r-2 border-indigo-300 pr-3" :aptitudes="aptitudes"/>
       <LanguagesComponent :languages="languages"/>
