@@ -9,7 +9,7 @@
         <!-- Ajuste del enlace -->
         <div class="my-4">
           <a
-            href="header[0].linkedin"
+            :href="header[0].linkedin"
             target="_blank"
             class="text-blue-200 hover:underline text-xl"
           >
@@ -17,7 +17,7 @@
           </a> 
           | 
           <a
-            href="header[0].github"
+            :href="header[0].github"
             target="_blank"
             class="text-blue-200 hover:underline text-xl"
           >
