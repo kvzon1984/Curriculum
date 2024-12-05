@@ -3,7 +3,7 @@
     <HeaderComponent :header="header" />
     <ExperienceComponent :experiences="experiences" />
     <EducationComponent :educations="educations" />
-    <div class="grid grid-cols-3 gap-8 mt-8">
+    <div class="grid grid-cols-3 gap-8 mt-8 pb-8">
       <SkillsComponent class="border-r-2 border-indigo-300 pr-3" :skills="skills"/>
       <AptitudeComponent class="border-r-2 border-indigo-300 pr-3" :aptitudes="aptitudes"/>
       <LanguagesComponent :languages="languages"/>
@@ -42,9 +42,11 @@ export default {
         email:"ivega.josue@gmail.com",
         linkedin:"https://www.linkedin.com/in/isaac-vega-870153125/",
         github: "https://github.com/kvzon1984",
-        objective: `Desarrollador Full Stack con 3 años de experiencia, apasionado por la tecnología, titulado de la carrera analista programador computacional, con ganas de aprender y trabajar en ambientes colaborativos en el desarrollo, poseo una muy buena voluntad para aprender y trabajar en equipo, con una rápida capacidad para la resolución de problemas, además una buena adaptación al cambio, autodidacta y en constante aprendizaje. 
+        objective: `Soy un Desarrollador Full Stack con 3 años de experiencia, apasionado por la tecnología y graduado en Analista Programador Computacional. Me considero una persona motivada por el aprendizaje continuo, con un fuerte enfoque en la resolución de problemas y en la colaboración en equipo. Tengo una gran capacidad para adaptarme a nuevos desafíos y cambios, y me esfuerzo por mantenerme actualizado con las últimas tendencias tecnológicas.
 
-        También poseo una alta capacidad para auto gestionar mis labores diarias y alta capacidad de análisis. Me considero una persona curiosa, comprometida y responsable, que busca Aprender y crecer Profesionalmente.`,
+A lo largo de mi carrera, he demostrado ser autodidacta y capaz de gestionar de manera efectiva mis tareas diarias, manteniendo una excelente capacidad de análisis y toma de decisiones. Me destaco por mi curiosidad, compromiso y responsabilidad, siempre buscando mejorar tanto en lo profesional como en lo personal.
+
+Mi objetivo es seguir creciendo como profesional, aprender nuevas tecnologías y contribuir en proyectos innovadores y de alto impacto.`,
       }
       ],
       experiences: [
@@ -53,30 +55,29 @@ export default {
           company: "InverAndes SPA",
           location: "Santiago, Chile",
           dates: "2023-Noviembre - Presente",
-          description: `Me desempeño como desarrollador fullstack para InverAndes, desarrollando una aplicación web.
-          La cual da solución a la venta, manejo de inventario, emisión de reportes. Ocupando tecnologías como Angular, C# .Net, Posgre, Git, Insomnia, Azure. Bootstrap. 
+          description: `Actualmente, me desempeño como desarrollador fullstack en InverAndes, donde trabajo en el desarrollo de una aplicación web que ofrece soluciones para la venta, el manejo de inventarios y la emisión de reportes. Para ello, utilizo tecnologías como Angular, C# .Net, PostgreSQL, Git, Insomnia y Bootstrap.
           
-          A su vez desarrollando una aplicación móvil utilizando tecnologías como Flutter, Dart, firebase la cual se conecta a la aplicación web. Encargado del despliegue tanto a play store como apple store. 
+          Además, trabajo en el desarrollo de una aplicación móvil utilizando Flutter, Dart y Firebase, la cual se integra con la aplicación web. También soy responsable del despliegue de la aplicación tanto en Google Play Store como en Apple Store.
 
-          Con el desafío de aprender angular lo antes posible ya que era una tecnología que si la habia oido pero sin la oportunidad de usarla, a su ves poniendo en practica los conocimientos adquiridos en mi practica Flutter y dart(Hupaka) y analyze ya que vue al ser un framework de JS no me costo tanto aprender Angular.`,
+          Uno de los mayores desafíos que enfrenté en este proyecto fue aprender Angular en el menor tiempo posible, ya que, aunque conocía la tecnología, nunca había tenido la oportunidad de trabajar con ella. Sin embargo, pude aplicar los conocimientos adquiridos durante mi práctica con Flutter y Dart (en Hupaka) y con Vue.js en Analyze, lo que facilitó mi aprendizaje de Angular debido a la similitud con otros frameworks de JavaScript.`,
         },
         {
           title: "Desarrollador Full Stack",
           company: "Analyze",
           location: "Santiago, Chile",
           dates: "2021-Octubre - 2023-Abril",
-          description: `Desarrollador fullstack para empresa consultora, para diferentes entidades privadas y publicas. 
-          Orientada a soluciones informáticas a la medida de las necesidades.
-          
-          Utilizando tecnologías tales como: Vue, Postgres, Python, Django, Git, Jira, Postman. `,
+          description: `Desarrollador fullstack para una empresa consultora, brindando soluciones informáticas personalizadas para diversas entidades privadas y públicas. Mi trabajo incluyó el desarrollo de aplicaciones web, así como la integración y consumo de APIs para optimizar los procesos. Utilicé tecnologías como Vue.js, PostgreSQL, Python, Django, Git, Jira y Postman, adaptándome a las necesidades de cada cliente y asegurando la entrega de soluciones a medida. `,
         },
         {
           title: "Desarrollador Móvil",
           company: "Hupaka",
           location: "Santiago, Chile",
           dates: "2021-Marzo - 2021-Julio",
-          description: `Realice mi practica profesional como desarrollador de aplicación móvil ocupando tecnología como Dart, flutter, Firebase. quedando contratado por un periodo fijo. 
-          Con el gran desafío de tener que aprender lo antes posible una tecnología nueva como flutter y dart. `,
+          description: `Durante mi práctica profesional en Hupaka, me desempeñé como desarrollador de aplicaciones móviles, utilizando tecnologías como Flutter, Dart y Firebase. Uno de los mayores desafíos fue aprender de manera rápida y eficiente estas tecnologías, que eran nuevas para mí, pero con el tiempo logré dominar y utilizarlas para desarrollar una aplicación móvil robusta y funcional.
+
+Además, no solo me encargué del desarrollo de la aplicación móvil, sino que también participé en la creación de la página web de la empresa, mejorando su presencia digital y optimizando la experiencia de usuario. Esta experiencia me permitió adquirir habilidades tanto en el desarrollo móvil como en el desarrollo web, brindándome una perspectiva más completa del ciclo de vida del software.
+
+Gracias a mis resultados y compromiso, fui contratado por un periodo fijo, lo que me permitió seguir creciendo profesionalmente dentro de la empresa.`,
         },
       ],
       educations: [
@@ -99,7 +100,7 @@ export default {
           dates: "1999 - 2002",
         },
         {
-          title: "Educación Basuca",
+          title: "Educación Básica",
           institution: "Colegio Chile | Colegio Bethel #3",
           location: "Santiago, Chile",
           dates: "1998 - 1991",
